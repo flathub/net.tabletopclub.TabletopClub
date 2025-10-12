@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/drwhut/tabletop-club/releases/download/v0.1.3/TabletopClub_v0.1.3_Linux_64.zip",
-                    "sha512": "25736d177a12c3c669c7d7c0d711f2a26d6bf0a6d22c3b67d5922f5eefb7fdd3873b718dfb64564e3827a5263ec5d51a2a8c86503f8e2b473d71f8c12eeb1d27",
+                    "url": "https://github.com/drwhut/tabletop-club/releases/download/v0.1.4/TabletopClub_v0.1.4_Linux_64.zip",
+                    "sha512": "db815deaf57e66b6e2ec7a2bbb70bb37a627c1c5ee63c41d5a4ced6052a55082f50848ac70eca5bcdc22ba3dcd7b55d6a59f3911737f25803a3f6c157a2deaed",
                     "strip-components": 0
                 },
                 {
@@ -44,8 +44,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/79d6a632101ee0cba86ec63f4d74344762703b8d/misc/flatpak/net.tabletopclub.TabletopClub.metainfo.xml",
-                    "sha512": "075594399d97b46deb4f800481c8eeadc7eca26c117a43b3fa0b5899c046422a5e1639e54f16f37f8e73c7a9b4404d0a1d773000cfca0d65d9a39679b0a56de3"
+                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/68a96ebd770161bc4151d1393bebfdc1db8a652a/misc/flatpak/net.tabletopclub.TabletopClub.metainfo.xml",
+                    "sha512": "f0d6612b25ce132a28bfb92e01fc10811a5db34ba819b93446a2edc31fdbc3aaae02095086af3047c35e1e343c47b1cb9bec4d583a192b198f5df6f26736ce65"
                 },
                 {
                     "type": "file",
