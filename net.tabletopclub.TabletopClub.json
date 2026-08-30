@@ -57,7 +57,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/7bae26d7db0e65d843e009af3b9b4f00b16923de/misc/flatpak/net.tabletopclub.TabletopClub.desktop",
+                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/a4fb379b0f4af1f066bf378bd652d8be90d64e32/misc/flatpak/net.tabletopclub.TabletopClub.desktop",
                     "sha512": "8c01959fb1354304dff9e6c903fd7bbff482c27ae277fa580adbdbc4d738298ae59d300e594bdc4e007410af499d8b4434005b9c4bd9603ac1e195f72c5e8593"
                 }
             ]
