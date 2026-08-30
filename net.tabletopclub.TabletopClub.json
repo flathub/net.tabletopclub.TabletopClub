@@ -1,7 +1,7 @@
 {
     "app-id": "net.tabletopclub.TabletopClub",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "tabletop-club-wrapper",
     "finish-args": [
@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/drwhut/tabletop-club/releases/download/v0.1.4/TabletopClub_v0.1.4_Linux_64.zip",
-                    "sha512": "db815deaf57e66b6e2ec7a2bbb70bb37a627c1c5ee63c41d5a4ced6052a55082f50848ac70eca5bcdc22ba3dcd7b55d6a59f3911737f25803a3f6c157a2deaed",
+                    "url": "https://github.com/drwhut/tabletop-club/releases/download/v0.1.5/TabletopClub_v0.1.5_Linux_64.zip",
+                    "sha512": "7ec63d0e8490a006f3c9d8f6b17ad32faa2fc7c592a074c374667eee026c36e716e59eac30f76f57d9d2fc7dee8d4cfd3726d917a3befd29104ffb570926b03f",
                     "strip-components": 0
                 },
                 {
@@ -39,17 +39,17 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/59a3f046837aceffe22670d635b21f29c2b7cfde/game/tabletop_club_icon.png",
+                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/7bae26d7db0e65d843e009af3b9b4f00b16923de/game/tabletop_club_icon.png",
                     "sha512": "85176d840093ff9dc4782067c1f30ea5b512406a6ab7b7c76a0ee010fbb7c34771bffdfbe30665192ed685769883a67ef460116f20da0f1b56f270b6e5ab2e4e"
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/fc96d9e4bd5a71252eb6b79f3a9e1eb449b53750/misc/flatpak/net.tabletopclub.TabletopClub.metainfo.xml",
-                    "sha512": "f0d6612b25ce132a28bfb92e01fc10811a5db34ba819b93446a2edc31fdbc3aaae02095086af3047c35e1e343c47b1cb9bec4d583a192b198f5df6f26736ce65"
+                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/a4fb379b0f4af1f066bf378bd652d8be90d64e32/misc/flatpak/net.tabletopclub.TabletopClub.metainfo.xml",
+                    "sha512": "8db88aed4c1d290949f05ac6e3393e8493d27c1cf4385602ee012778609b47e7f05afd6e88bc8c01c9d72d0471564192041c68f38ace8d7fe4547b73a7ca2555"
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/59a3f046837aceffe22670d635b21f29c2b7cfde/misc/flatpak/net.tabletopclub.TabletopClub.desktop",
+                    "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/7bae26d7db0e65d843e009af3b9b4f00b16923de/misc/flatpak/net.tabletopclub.TabletopClub.desktop",
                     "sha512": "8c01959fb1354304dff9e6c903fd7bbff482c27ae277fa580adbdbc4d738298ae59d300e594bdc4e007410af499d8b4434005b9c4bd9603ac1e195f72c5e8593"
                 }
             ]
