@@ -17,9 +17,9 @@
             "name": "tabletop-club",
             "buildsystem": "simple",
             "build-commands": [
-                "install -D -m 755 -p TabletopClub.x86_64 /app/bin/tabletop-club",
+                "install -D -m 755 -p $(if [ -f TabletopClub.x86_64 ]; then echo \"TabletopClub.x86_64\"; else echo \"TabletopClub.arm64\"; fi) /app/bin/tabletop-club",
+                "install -D -m 644 -p -t /app/lib/ $(if [ -f libwebrtc_native.linux.template_release.x86_64.so ]; then echo \"libwebrtc_native.linux.template_release.x86_64.so\"; else echo \"libwebrtc_native.linux.template_release.arm64.so\"; fi)",
                 "install -D -m 755 -p tabletop-club-wrapper.sh /app/bin/tabletop-club-wrapper",
-                "install -D -m 644 -p -t /app/lib/ libwebrtc_native.linux.template_release.x86_64.so",
                 "install -D -m 644 -p -t /app/share/TabletopClub/ TabletopClub.pck",
                 "mv assets/ /app/share/TabletopClub/",
                 "install -D -m 644 -p tabletop_club_icon.png /app/share/icons/hicolor/256x256/apps/$FLATPAK_ID.png",
@@ -31,6 +31,14 @@
                     "type": "archive",
                     "url": "https://github.com/drwhut/tabletop-club/releases/download/v0.1.5/TabletopClub_v0.1.5_Linux_64.zip",
                     "sha512": "7ec63d0e8490a006f3c9d8f6b17ad32faa2fc7c592a074c374667eee026c36e716e59eac30f76f57d9d2fc7dee8d4cfd3726d917a3befd29104ffb570926b03f",
+                    "only-arches": ["x86_64"],
+                    "strip-components": 0
+                },
+                {
+                    "type": "archive",
+                    "url": "https://github.com/drwhut/tabletop-club/releases/download/v0.1.5/TabletopClub_v0.1.5_Linux_ARM64.zip",
+                    "sha512": "bd6d65205f18526852077822383dcd32ceaaacddd5d586b3c8f77676cae2f9abc34752ceea48ea371955ab9d66352c050a2709c1187833b06a359d2ba49c9c3f",
+                    "only-arches": ["aarch64"],
                     "strip-components": 0
                 },
                 {
